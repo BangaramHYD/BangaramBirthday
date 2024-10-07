@@ -20,12 +20,8 @@ function App() {
     const [buttonstate,setbuttonstate]=useRecoilState(buttonstateatom)
      return <div>
     {buttonstate?<Question  />:<Happybirthday/>}
-   <div 
-   style={{
-    top:'25%',
-    left:'40%'
-   }}>
-    <button onClick={()=>setbuttonstate((pre)=>!pre)}>ClicK me</button>
+   <div className=' ml-40'>
+    <button onClick={()=>setbuttonstate((pre)=>!pre)}>click(🎁🧧)</button>
    </div>
   </div>
 
