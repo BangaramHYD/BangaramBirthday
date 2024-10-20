@@ -10,6 +10,7 @@ import {
   useRecoilValue,
 } from 'recoil';
 import { buttonstateatom } from './compounds/Atoms'
+import { MusicPlayer } from './compounds/music';
 
 function App() {
  
@@ -20,9 +21,10 @@ function App() {
     const [buttonstate,setbuttonstate]=useRecoilState(buttonstateatom)
      return <div>
     {buttonstate?<Question  />:<Happybirthday/>}
-   <div className=' ml-40'>
-    <button onClick={()=>setbuttonstate((pre)=>!pre)}>click(🎁🧧)</button>
-   </div>
+    <div className='flex items-center ml-[30%]'>
+
+    <MusicPlayer/>
+    </div>
   </div>
 
   }

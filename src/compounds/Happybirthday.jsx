@@ -44,11 +44,44 @@ import Image40 from '../assets/Images/41.png'
 import Image41 from '../assets/Images/42.png'
 import Image42 from '../assets/Images/43.png'
 import Image43 from '../assets/Images/44.png'
+import Image44 from '../assets/Images/45.png'
+import Image45 from '../assets/Images/46.png'
+import Image46 from '../assets/Images/47.png'
+import Image47 from '../assets/Images/48.png'
+import Image48 from '../assets/Images/49.png'
+import Image49 from '../assets/Images/50.png'
+import Image50 from '../assets/Images/51.png'
+import Image51 from '../assets/Images/52.png'
+import Image52 from '../assets/Images/53.png'
+import Image53 from '../assets/Images/54.png'
+import Image54 from '../assets/Images/55.png'
+import Image55 from '../assets/Images/56.png'
+import Image56 from '../assets/Images/57.png'
+import Image57 from '../assets/Images/58.png'
+import Image58 from '../assets/Images/59.png'
+import Image59 from '../assets/Images/60.png'
+import Image60 from '../assets/Images/61.png'
+import Image61 from '../assets/Images/62.png'
+import Image62 from '../assets/Images/63.png'
+import Image63 from '../assets/Images/64.png'
+import Image64 from '../assets/Images/65.png'
+import Image65 from '../assets/Images/66.png'
+import Image66 from '../assets/Images/67.png'
+import Image67 from '../assets/Images/68.png'
+import Image68 from '../assets/Images/69.png'
+import Image69 from '../assets/Images/70.png'
+import Image70 from '../assets/Images/71.png'
+import Image71 from '../assets/Images/72.png'
+import Image72 from '../assets/Images/73.png'
+import Image73 from '../assets/Images/74.png'
+import Image74 from '../assets/Images/75.png'
+import Image75 from '../assets/Images/76.png'
+
 
 
 export const Happybirthday = ()=>{
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
-    const imagesss = [Image1,Image2,Image3,Image4,Image5,Image6,Image7,Image8,Image9,Image10,Image11,Image12,Image13,Image14,Image15,Image16,Image17,Image18,Image19,Image20,Image21,Image22,Image23,Image24,Image25,Image26,Image27,Image28,Image29,Image30,Image31,Image32,Image33,Image34,Image35,Image36,Image37,Image38,Image39,Image40,Image41,Image42,Image43]
+    const imagesss = [Image1,Image2,Image3,Image4,Image5,Image6,Image7,Image8,Image9,Image10,Image11,Image12,Image13,Image14,Image15,Image16,Image17,Image18,Image19,Image20,Image21,Image22,Image23,Image24,Image25,Image26,Image27,Image28,Image29,Image30,Image31,Image32,Image33,Image34,Image35,Image36,Image37,Image38,Image39,Image40,Image41,Image42,Image43,Image44,Image45,Image46,Image47,Image48,Image49,Image50,Image51,Image52,Image53,Image54,Image55,Image56,Image57,Image58,Image59,Image60,Image61,Image62,Image63,Image64,Image65,Image66,Image67,Image68,Image69,Image70,Image71,Image72,Image73,Image74,Image75]
   const totalImages = imagesss.length;
  
   useEffect(()=>{
@@ -76,7 +109,7 @@ export const Happybirthday = ()=>{
    top:'20%',
    left:'40%'
   }}
-  >Bunny</div>: null}
+  >Happy birthday srija</div>: null}
     <div>
        
     </div>
